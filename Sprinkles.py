@@ -7,7 +7,7 @@ def get_burn_center():
         reader = csv.reader(csv_file)
         rownum = random.randrange(0, 159, 1)
         rows = list(reader)
-        print(''.join(rows[0])) #rownum goes where 0 is
+        print(''.join(rows[rownum]))
 
 
 def handle_command(command):
